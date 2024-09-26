@@ -1,0 +1,1463 @@
+MERN web full stack:
+====================
+frontend:
+-----------
+HTML:
+CSS:
+Bootstrap:
+JavaScript:
+ReactJS : (pre requisites)
+
+
+Html: Hypertext markup language:
+      (static web pages)
+
+Html: Html only used for only to develop static web pages...
+
+CSS: (Cascading style sheet): mainly used for to design
+      web pages...
+      basic style sheet programm....
+Note: Here in CSS developer need to write manual code
+      to design web page...
+
+Bootstrap: It is an extension to CSS, using bootstrap 
+ we apply styles to the webpages....
+     (Automated  code available)
+          OR
+     CDN: Content Delivery Network.....
+
+getBootStrap.com
+----------------
+
+JavaScript:
+==============
+JavaScript used for to change webpage in 
+dynamic mode then we go for javascript...
+
+
+ReactJS:
+----------
+ReactJS is an advanced javascript library used for
+develop dynamic web Pages....
+Most of the webpages in the market designed or developed on ReactJS library only....
+
+
+
+Backend:
+==========
+Express JS: 
+-----------
+Express Js used for to write REST API calls...
+like get, post, put(update), delete......
+(http://localhost:5000/get/login...)
+
+CRUD: or CURD: (create(post)(insert), update(put)(modify), read(get),
+delete(delete))
+
+middleware:
+==============
+...security(Authentication)
+   
+Node JS:
+=======
+NodeJs exisiting with expressjs with mongoose library...
+used for to write server side program....
+
+MongoDB:(database ...)
+========
+
+1.Relational databases(MySQL, Oracle, MS SQL Server.....)
+(It stores data in the form tables ...)
+
+empid  empName empSal
+101	ajay	5000
+102	Vijay	6000
+
+2.Non-Relational databases:
+
+(Non-relational databases doesn't follows any table structure..)
+(MongoDB, CosmosDB, Neo4j, Casendra....)
+
+
+Software requires for MERN stack:
+======================================
+1. IDE(VSCode IDE)
+   https://code.visualstudio.com/
+2. Node download & install
+   https://nodejs.org/en/download
+3. POST man application to test REST API calls
+   https://www.postman.com/downloads/
+
+WebPages:
+==========
+2 types....
+1. Single Page web applications(SPA)
+2. multi  Page web application(MPA)
+
+
+ReactJS: Used for to develop Single Page Application (SPA) only...
+
+https://react.dev/community
+
+
+Importance of head tag:
+----------------------
+1. include meta tag
+2. include title
+3. include javascript code
+4. include vbscript code
+5. include css code
+6. include external links.....
+
+
+
+Html:
+=====
+it is hypertext markup languge used for 
+to develop static web pages.
+
+Html is a basic program to learn other web programming
+langauges.
+
+html support 2 types tags.
+They are
+1. Paired Tags(Ex: <html>(opening)</html>(closing))
+2. Unpaired Tags(Ex: <hr>,<br>)
+
+Basic Html Program:
+===================
+It follows the given tags
+1. <html>
+2.<head>
+3.<title>
+4.<body>
+
+
+simple example program:
+-------------------
+test.html:
+<!----the below program is an example of 
+             proper nesting html program--->
+<html>
+<head>
+<title>This is my first program</title>
+</head>
+<body>
+<h1>Welcome to Basic html program</h1>
+</body>
+</html>
+
+
+Note: html support proper & improper nesting 
+mechanism....
+
+
+<!--the below example program follows
+Improper nesting mechanism-->
+<html>
+<head>
+<title>This is my first program</title>
+</head>
+</html>
+<body>
+<marquee>Vaagdevi Engg college</marquee>
+<h1>Welcome to Basic html program</h1>
+</body>
+
+Formatting Tags:
+==================
+html support basically 2 types of formatting tags
+1. physical tags
+2. logical tags or semantic tags
+
+
+1. Physical Tags:
+===================
+<html>
+<head
+<title>Physical tags in html</title>
+</head>
+<body>
+<!---bold tag-->
+<b>Vaagdevi college</b><br>
+<!--italic tag-->
+<i>Vaagdevi college</i><br>
+<!--under line-->
+<u>Vaagdevi college</u><br>
+<!--strike through-->
+<s>Vaagdevi college</s><br>
+<!--super script-->
+a<sup>2</sup>+b<sup>2</sup>+c<br>
+<!--subscript-->
+H<sub>2</sub>SO<sub>4</sub><br>
+</body>
+</html>
+
+
+List in Html program:
+==================
+3 types
+1. order list
+2. unorder list
+3. definition list
+
+Write a program on order list
+--------------------------------
+<html>
+<head>
+<title>Order list program</title>
+</head>
+<body>
+<ol type="I">
+<li>Central processing unit</li>
+<li>Memory Unit</li>
+<li>Arithmetic Logical unit</li>
+</ol>
+</body>
+</html>
+
+
+2. Un-order list:
+------------------
+<html>
+<head>
+<title>Unorder list</title>
+</head>
+<body><!--This is an example prog on unorder list-->
+<ul type="desc">
+<li>Central processing unit</li>
+<li>Memory Unit</li>
+<li>Arithmetic Logical unit</li>
+</ul>
+</body></html>
+
+Note: unorder list also called as bullet list
+
+
+
+3. Definition List:
+=====================
+<html>
+<head>
+<title>definition list</title>
+</head>
+<body><!--This is an example prog on definition list-->
+<dl>
+<dt>CPU</dt>
+<dd>Central processing unit</dd>
+</dl>
+</body>
+</html>
+ 
+
+Anchor tag in html:(<a>) or hyperlink
+====================
+<html>
+<head>
+<title>Hyperlink tag</title>
+</head>
+<body>
+<a href="List.html">Click here</a>
+</body>
+</html>
+
+
+Image tag in html:
+=====================
+Images are diff types of extensions...
+
+1. jpg or jpeg(Joint photographic images)
+2. gif (graphical interchange format)
+3. bmp (bitmap images...)
+.......
+....
+
+Table tag:
+==========
+<html>
+<body>
+<table border="2" cellspacing="10"
+cellpadding="10" bordercolor="red">
+<tr><!--tr is a table row-->
+<th>1st Hour</th><!--th is a table heading-->
+<th>2nd Hour</th>
+<th>3rd hour</th>
+</tr>
+<tr><!--td is a table data-->
+<td>CyberSecurity</td>
+<td>Artificial Intelligence</td>
+<td>Quantum Computing</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+example2:
+===========
+<html> <body> <table border=2>
+<thead>
+<th>1st Hour</th>
+<th>2nd Hour</th>
+<th>3rd Hour</th>
+</thead>  <tbody>
+<td>Cybersecurity</td>
+<td>Artificial Intelligence</td>
+<td>Quantum computing</td>
+</tbody>  </table>
+</body>   </html>
+
+
+form tag in html:
+==================
+<html>
+<body>
+<form>
+<center><h2>Student Bio-Data Form</h2></center>
+</form>
+</body>
+</html>
+
+
+<html>
+<body>
+<form>
+<div>
+<center><h2>Student Bio-Data Form</h2></center>
+<br>
+<label for="studentName">Student Name</label>
+<input type="text" name="studentname" 
+placeholder="Enter Student Name" required/>
+<br>
+<label for="studentpassword">Student password</label>
+<input type="password" name="password"
+placeholder="Enter student password" required/>
+<br>
+<label for="Student Age">Student Age</label>
+<input type="number" name="studentage"
+      placeholder="Enter student age" required/>
+<br>
+<label for="gender">Gender</label>
+<input type="radio" name="r1">Male</input>
+<input type="radio" name="r1">Female</input>
+<br>
+<label for="DOB">Student DOB:</label>
+<input type="date"/>
+<br>
+<label for="Email">Email</label>
+<input type="email" name="email"/>
+<br>
+<label for="Address">Address:</label>
+<textarea cols="10" rows="8">
+</textarea>
+<br>
+<label for="course">Select Course:</label>
+<select option="EEE">
+<option>ECE</option>
+<option>CSE</option>
+<option>Civil</option>
+</select>
+<br>
+<br>
+<br>
+<input type="submit" value="submit"/>
+<input type="reset" value="reset"/>
+</div>
+</form>
+</body>
+</html>
+
+
+<div> & <span> tag in html:
+==========================
+div tag is used for to write content in block...
+same as span tag as well
+
+but only the difference is
+span exist inside of the div tag only....
+
+
+<html>
+<body>
+<h2>This is an example program on div and span tag</h2>
+<div>
+<p>Welcome to <span> Vaagdevi College</span>
+in Warangal
+</p>
+</div>
+</body>
+</html>
+
+<html>
+<body>
+<h2>This is an example program on 
+	div and span tag</h2>
+<div>
+<p>Welcome to <span style="color: yellowgreen;"> Vaagdevi College</span>
+in Warangal
+</p>
+</div></body></html>
+
+Logical Tags or Semantic Tags in html:
+====================================
+Definition: Logical or semantic tags follows
+special meaning in html, we used or implemented
+for special purpose.....
+
+
+
+HTML5 Tags:
+===================
+1. video tag:
+--------------
+2. Audio tag
+-------------
+
+Handson Activity from HTML:
+============================
+1. Audio & video file....at 3:30 
+
+
+
+<html>
+    <body>
+<svg width="300" height="300">
+    <circle cx="50" cy="50" r="40"
+    stroke="red" stroke-width="4" fill="green">
+    </circle>
+</svg>
+
+<svg width="300" height="300">
+<rect width="50" height="30"
+    stroke="blue" stroke-width="4">
+</rect>
+</svg>    </body>
+</html>
+
+
+<html>
+    <body>
+    <audio controls>
+            <source src="mp31.mp3"/>
+    </audio>
+    <video width="200" height="200" controls>
+        <source src="Video.mp4"/>
+    </video>
+    </body>
+</html>
+
+
+
+
+Handson Activity:
+==============================
+
+Create a simple login page for an online banking system
+
+
+
+
+
+
+CSS:(Cascading Style Sheets):
+============================
+
+Definition: Using CSS application we apply styles to web pages.
+Basically it follows the given syntax:
+
+
+selector{ property1: value1,  property2 : value2}
+        -------------------   ---------------
+         declaration1		declartion2
+
+
+In the market we have lot of CSS applications available 
+They are
+
+1. CSS(Basic style sheet)
+2. Tailwind
+3. Bootstrap
+4. Angular cli(Angular JS)
+5. Material UI (React JS)
+6. Ant-Design
+
+etc.....
+
+
+
+
+CSS basically classified into 3 types:
+
+They are
+
+1. inline style sheets:
+2. Internal style sheets or Embedded style sheets
+3. External style sheets
+
+
+1. inline style sheets:
+-----------------------
+inline style sheet is a concept for apply styles for
+exisisting elements ...
+Apply each element with inline style sheet concept...
+
+Ex;
+<html>
+    <body>
+/* the below example is an Inline style sheet */
+  <h1 style="color : yellowgreen">
+    Welcome to CSS programming code
+  </h1>      
+    </body>
+</html>
+
+
+<html>
+    <body>
+  <h1 style="color:yellowgreen">
+    Welcome to CSS programming code
+  </h1>   
+  <h2 style="color:turquoise; background-color: yellow;">
+    Welcome to CSS code
+  </h2>  
+    </body>
+</html>
+
+
+2. Internal style sheets or Embedded style sheets:
+================================================
+Apply styles in head section is simply we called 
+internal style sheet concept....
+
+It follows the given syntax:
+
+<head>
+<style>
+  <!---Internal style sheet properties-->
+</style>
+</head>
+
+
+Example Program on Internal Style Sheet:
+=========================================
+<html>
+<head>
+<style>
+h2
+{
+color : red;
+}
+</style>
+</head>
+<body>
+<h2>This is an example code for internal style sheet
+</body></html>
+
+
+
+3. External style sheets:
+===========================
+In CSS external style sheet contains a unique code 
+externally exist. Add external code into html code
+is called as External style sheet concept.....
+
+
+syntax:
+-----------
+external.css
+============
+h2
+{
+color:red;
+}
+
+Note: Save external code as with .css extension
+
+finally we add external code into html code with the 
+help of <link> tag....
+
+It follows the given syntax:
+---------------------------
+<head>
+<link rel="stylesheet" type="text/css" href="external.css">
+</link>
+</head>
+
+
+Example:
+---------
+External.html
+----------------
+<html>
+<head>   
+<link rel="stylesheet" type="text/css"
+          href="External.css"></link>
+</head>
+<body>
+<h2>This is an example code for <br>
+External style sheet </h2>
+</body>
+</html>
+
+
+External.css:
+-----------
+/*This is a comment in CSS*/
+h2{
+    color: blue;
+    text-transform: capitalize;
+    text-align: center;
+    text-indent: 100px;
+ 
+}
+
+
+Types of selectors in CSS:
+============================
+In CSS there are mainly 5 types of selectors. They are
+
+1. Element Selector(<p>)
+2. Group Selector(h1,h2,p)
+3. Universal Selector(*)
+4. Class selector(class="classname")
+5. Id selector(id="idname")
+
+1. Element Selector:
+===================
+
+<html>
+    <style>
+        h3{ background-color: thistle; }
+        h2{color:blue}
+    </style>    <body>
+        <h3>This is an example<br>
+            code for element selector
+        </h3>
+        <h2>Hiiiiiiiiiiiiiiiiiiiiiiii</h2>
+    </body>
+</html>
+
+
+2. Group selector example:
+===============================
+<html>  <head>    <style>
+       h1,h3,p {
+    background-color: violet;
+        }
+</style> </head> <body>
+<h1>Group selector example</h1>
+<h3>Group selector example program</h3>
+<p> 1. Element Selector(<p>) <br>
+    2. Group Selector(h1,h2,p) <br>
+    3. Universal Selector(*) <br>
+    4. Class selector(class="classname") <br>
+    5. Id selector(id="idname") <br>
+</p>   </body>  </html>
+
+
+3. Universal selector(*):
+========================
+<html> <head> <style>
+*{
+    color: aquamarine;
+    text-align: center;
+    background-color:yellow;
+}
+</style> </head>  <body>
+<h2>This is an example code for universal </h2>
+<p>This is an example code for universal </p>
+<marquee>This is an example code for universal 
+</marquee>  </body>  </html>
+
+
+
+4. class selector in CSS:
+==========================
+Note: if we add class selector user need to start with
+.(dot operator or member access operator)
+
+
+<html>
+<head>
+<style>
+.one{text-align: center;color: brown;  }
+.two{color:chartreuse}
+</style>   </head>     <body>
+<h4 class="one">Example prog for class selector</h4> 
+<h4 class="two">Example prog for class selector</h4>   
+</body>  </html>
+
+
+5. Id selector in CSS:
+==========================
+Note: if we add styles with id selector user need to 
+follows with # symbol.
+<html>
+    <head>
+        <style>
+            #one{color: blueviolet;}
+            #two{color: yellowgreen}
+        </style>
+    </head>
+<body>
+<h2 id="one">Example code for ID selector</h2>  
+<h2 id="two">Welcome to ID selector </h2>  
+</body>  </html>
+
+
+
+BootStrap:
+==============
+It is an extension to CSS(Cascading style sheet):
+Basically bootstrap contains CDN(Content Delivery Network).
+
+The above CDN code simply added into our html code.....
+
+
+URL:  https://getbootstrap.com/
+
+
+
+
+Text-properties:
+================
+<html> <head>    <style>
+ p{
+ color:aqua;
+ background-color: black;
+ direction:rtl;
+ text-transform: uppercase;
+ text-indent: 300px;
+ letter-spacing: 5px;
+ line-height: 50px;
+ word-spacing: 30px;
+ text-shadow: 5px 5px red;
+ }
+    </style>    </head>    <body>
+        <p>Text properties in css adding 
+        Applying direction property</p>
+    </body>
+</html>
+
+
+ex2:
+<html><head><style>
+ p{
+ font-size: 20px;
+ font-family:'Times New Roman', Times, serif;
+ font-weight: 400;
+ font-display: arial;
+ background-image: url('babycorn.jpeg');
+ background-position: 10px;
+ background-repeat: repeat-x;
+ }
+ </style>
+    </head>
+    <body>
+        <p>Text properties in css adding <br>
+        Applying direction property</p>
+        <p>Text properties in css adding <br>
+            Applying direction property</p>
+    </body>
+</html>
+
+
+<html><head><style>
+ .container{
+    display: flex;
+    }   
+    .child{
+        width: 100px;
+        height: 100px;
+    }
+ #c1{ color: yellow; } #c2{color: yellowgreen;} #c3{ color: violet;}
+</style></head>
+<body>
+<div class="container">
+<div id="c1" class="child">Flex-Item1</div>
+<div id="c2" class="child">Flex-Item2</div>
+<div id="c3" class="child">Flex-Item3</div>
+</div></body></html>
+
+
+
+<html>
+
+<head>
+<style>
+ .container{
+    display: flex;   
+    flex-flow: column wrap;
+    }   
+    .child{
+        width: 100px;
+        height: 100px;
+    }
+ #c1{ color: red }
+ #c2{color: yellowgreen;}
+ #c3{ color: violet;}
+</style></head>
+<body>
+<div class="container">
+<div id="c1" class="child">Flex-Item1</div>
+<div id="c2" class="child">Flex-Item2</div>
+<div id="c3" class="child">Flex-Item3</div>
+<div id="c1" class="child">Flex-Item1</div>
+<div id="c2" class="child">Flex-Item2</div>
+<div id="c3" class="child">Flex-Item3</div>
+<div id="c1" class="child">Flex-Item1</div>
+<div id="c2" class="child">Flex-Item2</div>
+<div id="c3" class="child">Flex-Item3</div>
+</div>
+</body>
+</html>
+
+
+Handson Activity1 Unsolved Practical:  
+=====================================
+Create an HTML document that includes a list of menu items. 
+Use CSS selectors to style the list items differently based on their availability:
+• Apply a margin to all list items.
+• Apply an opacity to list items with the class "unavailable".
+
+
+Activity2:
+=========
+CSS grid 
+
+
+
+
+collegevaagdevi716@gmail.com
+Test@1234
+https://github.com/
+
+
+https://github.com/ajay4rgithub/vaagdevi.git(central GitHub)
+
+
+so far we done
+git installation
+GitHub account we created...
+
+
+
+GitHub(college...)
+GitLab(Accenture)
+bitbucket
+....
+....
+
+
+
+GitHub :( Version control system)
+=================================
+Used for to store our projects in real time.....
+
+Before we execute GitHub , internally in our local system or
+laptop we must and should download & install git application
+software...
+
+git downloads:
+=================================
+https://git-scm.com/downloads
+OR
+https://git-scm.com/download/win
+
+
+C:\Program Files\Git\bin
+
+
+
+git basic commands:
+-------------
+git  init
+-->used for to initialize git local repository
+
+git status
+-->Used for to check the status of the project
+
+git add  .
+-->Used for to add existing projects into local repository
+
+git commit -m "first commit"
+-->used for to commit from untracked files into tracked files,
+  now these files are ready to send in remote repository...
+
+git branch -M main
+---> adding 
+
+git remote add origin (GitHub URL):
+git remote add origin https://github.com/ajay4rgithub/vaagdevi.git
+---> used for add local repository into remote repository
+
+git push (GitHub URL)
+---> Used for push all the committed project data into
+GitHub remote repository....
+
+
+
+https://nextgen.edunetworld.com/
+
+Test@1234
+
+First Time:
+==============
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ajay4ugit/Test222.git
+git push -u origin main
+
+Second time:
+==================
+git status
+git add .
+git commit -m "added h3 tag"
+git push
+
+
+
+
+
+Email: ajay4rjava@gmail.com
+WhatsApp: 7799379839
+
+javascript:
+==========
+conditional statements
+if
+if-else
+else-if
+nested-if
+switch
+
+loop statements:
+--------------
+for
+while
+do-while
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+node --version
+
+
+C:\Program Files\nodejs\node_modules\npm\bin
+
+
+function in JavaScript:
+========================
+function function_name
+{
+body of content;
+}
+
+function_call();
+
+
+document object model: (DOM)
+or
+Tree model:
+
+It contains mostly 3 methods:
+---------------------------------------------
+1.getElementById()
+2.getElementsByName()
+3.getElementsByClassName();
+
+JavaScript ES6 features:
+--------------------------
+ES6: ECMAScript6 :(2015)
+(European Computer Manufacturer Association)
+Based on Organization standards javaScript
+run in any other browser...
+ES7:
+ES8:
+ES9:
+
+
+1. let:
+
+for(let a=0;a<=5;a++)
+{
+ console.log("inside block of a value is="+a);
+}
+console.log("outside block a value is="+a);
+
+
+note: let keyword scope is only inside of the 
+block. but not outside block.
+
+2. var:
+===========
+for(var a=0;a<=5;a++)
+{
+  console.log("inside block of a value is="+a);
+}
+console.log("outside block a value is="+a);
+
+
+Note: var keyword scope is entire globe, it
+means we access var keyword value either in
+inside of the block or outside of the block
+
+
+
+3. const:
+-----------
+note: const value we cannot change or modify.
+it is fixed always..
+
+ex:
+const a=5;
+   a++; //here we get error
+
+
+Note:
+--------------
+SPA:(Single Page Application)
+    Ex:  Facebook, Instagram, paypal, gmail,
+         ReactJS doc
+
+ 
+MPA: (Multipage Page Application):
+    Ex: The Hindu, Amazon .....
+
+ReactJS :
+========
+ReactJS is open source and freely available 
+application in the market. we are directly 
+install reactjs project without paying any amount.
+
+->ReactJS is single page web application..
+  (paypal, facebook, Instagram...)
+
+-->ReactJS is also called component based application.
+
+flow of React Js project:
+--------------------------------------------
+--> index.html=>main.jsx==>App.jsx(code)
+
+ReactJS Features:
+=======================
+1. React Js support JSX concept
+   (JavaScript xml is known as JSX)
+2. React support component based mechanism
+3. React support virtual DOM:
+4. React support Data binding concept..
+5. React support Unidirectional(by default) way of mechanism.
+
+
+Note: React organization recommended only vite related project...
+
+
+By normally every developer creates project using with the help
+of npx mechanism..
+
+
+
+
+Components in ReactJS:
+-----------------------------
+There are 2 types components in ReactJS:
+They are
+1. functional components
+2. class components
+
+
+
+Props: in ReactJs:
+(Properties)
+
+
+
+Routing Concept in ReactJS:
+===============================
+
+
+
+
+Reactjs code snippets 
+ES7+ react/redux code snippets
+
+Arrow function :
+-------------------
+const App = () => {
+  return (
+    <div>
+    <h2>This is functional component</h2>
+    </div>
+  )
+}
+
+export default App
+
+simple function:
+-----------------
+function App(){
+return(
+<div>
+<h2>This is a functional component</h2>
+</div>)
+}
+
+
+State concept in ReactJS:
+-----------------------------
+
+In state management mechanism state value remains same even if you click
+any mouse events...
+
+State value doesn't change even though we done events......
+
+
+function Test(){
+    let counter=0;
+    function updateCount(){        
+        counter++;
+        console.log(counter);        
+    }
+    return(
+        <div>
+            <h2>Counter value is={counter}</h2>
+<button onClick={updateCount}>change</button>
+        </div>
+    )
+}
+export default Test;
+
+
+
+useState:
+---------------------------
+It is one of the reactjs Hook concept. where Hook is a special 
+function to modify the content in ReactJs APplication.
+
+Examples Hooks in Reactjs:
+--------------------------------
+1. useState()
+2. useEffect()
+3. useRender()........
+
+
+
+1. useState():
+===================
+App.jsx:
+------------
+import Test from './Test'
+function App(){
+    return(
+        <div>
+            <Test/>
+        </div>
+    )
+}
+export default App;
+
+Test.jsx:
+----------------------------------
+import { useState } from "react";
+function Test(){
+    let [counter,setCounter]=useState(-100);
+    
+    return(
+        <div>
+            <h2>Counter value is={counter}</h2>
+<button onClick={()=>setCounter(++counter)}>change</button>
+        </div>
+    )
+}
+export default Test;
+
+Ex2:
+import { useState } from "react";
+function App(){
+ const [count,setCount]=useState(0);
+    return(
+        <div>
+            <center>
+                <h2>{count}</h2>
+<button onClick={()=>setCount(count+1)}>Change</button>
+            </center>
+        </div>
+    )
+}
+export default App;
+
+
+
+2. useEffect():
+--------------------
+
+import { useState,useEffect } from "react";
+
+
+function App(){
+const [count,setCount]=useState(0);
+useEffect(()=>
+console.log("clicked",[count])
+)
+    return(
+        <div>
+            <center>
+                {count}
+    <button onClick={()=>setCount(count+1)}>Click</button>            
+            </center>
+        </div>
+
+    )
+}
+export default App;
+
+
+ES6:
+
+What is ES6?
+
+It is one of the standard mechanism.ES6(Ecma Script) :Ecma ==>
+European computer Manufacturer Association(ES). It is one of the
+Organization recommended a set of standards. Based on the standards
+All browsers(Edge, mozilla, Netscape, googlechrome) executes ES6 features....
+
+ES6:(2015)
+Es7:
+ES8:
+ES9:
+
+
+
+
+
+
+===================
+1. let   : varibles declaration & initialization
+    
+for(let a=0;a<5;a++){
+    console.log("inside block of a="+a);
+}
+console.log("outside block a value is="+a);
+
+
+Note: scope of let keyword is inside block...
+
+Ex2:
+
+for(var a=0;a<5;a++){
+    console.log("inside block of a="+a);
+}
+console.log("outside block a value is="+a);
+
+
+
+
+2. const : (Arrow functions):
+
+
+for(const a=0;a<5;a++){
+    console.log("inside block of a="+a);
+}
+console.log("outside block a value is="+a);
+
+
+Note: const keyword values are fixed...
+      we cannot modify or change 
+
+
+
+3. String methods:
+----------------------------
+String definition:
+It is a collection of characters...
+Ex" abc"  , "12345"
+
+
+we create 2 ways string ,they are
+3.1   String literals
+3.2  String using new keyword
+
+
+ES6 String methods:
+=========================
+1. startsWith()
+2. endsWith()
+3. includes()
+4. repeat()
+
+
+let collegeName="Vaagdevi Engg college";//String literal
+console.log(collegeName);
+
+let cName=new String("Vaagdevi Engg college")//String with new keyword
+console.log(cName);
+
+
+
+let collegeName="Vaagdevi College Engg";
+console.log(collegeName.endsWith("Engg"));
+console.log(collegeName.endsWith("Vaagdevi"));
+
+
+let collegeName="Vaagdevi College Engg";
+console.log(collegeName.includes("College"))
+console.log(collegeName.includes("college"))
+
+
+
+
+4. Template String:
+------------------------------
+
+
+// `  backtique operator
+let collegeName="Vaagdevi College Engg";
+console.log(`I am studying in ${collegeName}`);
+
+
+
+5. class:
+----------------------------
+
+class Sample
+{
+    constructor(){
+        this.id=101;
+        this.name="AjayReddy"
+    }
+    displayInfo() {
+        console.log(this.id+" "+this.name);
+    }      
+}
+let s=new Sample();
+s.displayInfo();
+
+
+Ex2: Parametrized Constructor
+
+class Sample
+{
+    constructor(id,name){
+        this.id=id;
+        this.name=name;
+    }
+    displayInfo() {
+        console.log(this.id+" "+this.name);
+    }      
+}
+let s=new Sample(101,"AjayReddy");
+s.displayInfo();
+
+
+
+6. Arrow function:
+====================
+
+Arrow function:
+------------------
+Arrow function exist with Arrow key symbol (=>)
+& it contains function name with Arrow symbol.
+Compare to simple function Arrow functions performs
+faster...
+
+
+const displayInfo=()=>{
+    console.log("This is a Arrow function")
+}
+displayInfo();
+
+Ex2:
+
+const displayInfo=()=>{
+    console.log("This is a Arrow function")
+}
+const getInfo=()=>{
+    console.log("this is getInfo function")
+}
+displayInfo();
+getInfo();
+
+
+
+7. for each loop:
+===================
+let arr=[10,20,30,40];
+for(let args of arr){
+    console.log(args);
+}
+
+
+8. REST operator:
+---------------------
+function rest(...args){
+    let result=0;
+    for(let arg of args){
+        result=result+arg;
+    }
+    console.log("Result is="+result)
+}
+rest(10,20,30,40,50);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
